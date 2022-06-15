@@ -1,6 +1,6 @@
 Using pre-set license
 Built from 'trunk' branch; Version is '2022.2.0a16 (17114ee23d5f) revision 1511758'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 7991 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 8087 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.2.0a16\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/bolli/OneDrive/Documents/GitHub/duegonRopo/My project
+C:/Users/benne/Documents/GitHub/duegonRopo/My project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59265
-Successfully changed project path to: C:/Users/bolli/OneDrive/Documents/GitHub/duegonRopo/My project
-C:/Users/bolli/OneDrive/Documents/GitHub/duegonRopo/My project
+52480
+Successfully changed project path to: C:/Users/benne/Documents/GitHub/duegonRopo/My project
+C:/Users/benne/Documents/GitHub/duegonRopo/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,54 +49,54 @@ C:/Users/bolli/OneDrive/Documents/GitHub/duegonRopo/My project
     "memorysetup-temp-allocator-size-gfx=262144"
 Initialize engine version: 2022.2.0a16 (17114ee23d5f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.0a16/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/bolli/OneDrive/Documents/GitHub/duegonRopo/My project/Assets
+[Subsystems] Discovering subsystems at path C:/Users/benne/Documents/GitHub/duegonRopo/My project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics (ID=0x9a78)
-    Vendor:   Intel
-    VRAM:     3995 MB
-    Driver:   30.0.100.9864
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 550 Ti (ID=0x1244)
+    Vendor:   NVIDIA
+    VRAM:     1979 MB
+    Driver:   23.21.13.9135
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.0a16/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.0a16/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.0a16/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.0a16/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005831 seconds.
-Refreshing native plugins compatible for Editor in 287.75 ms, found 3 plugins.
-- Loaded All Assemblies, in  0.745 seconds
+Registered in 0.021258 seconds.
+Refreshing native plugins compatible for Editor in 120.76 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.928 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.370 seconds
+- Finished resetting the current domain, in  0.665 seconds
 Domain Reload Profiling:
 	ReloadAssembly (614ms)
-		BeginReloadAssembly (126ms)
+		BeginReloadAssembly (190ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (123ms)
+			LoadAssemblies (185ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (127ms)
-				TypeCache.Initialize (126ms)
-					TypeCache.ScanAssembly (125ms)
-				ResolveRequiredComponents (0ms)
+			SetupTypeCache (293ms)
+				TypeCache.Initialize (292ms)
+					TypeCache.ScanAssembly (289ms)
+				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (276ms)
+			SetupLoadedEditorAssemblies (480ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (7ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (22ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (193ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (335ms)
+				ProcessInitializeOnLoadMethodAttributes (99ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -104,56 +104,55 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Registering precompiled user dll's ...
-Registered in 0.002145 seconds.
+Registered in 0.005069 seconds.
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.142 seconds
-Refreshing native plugins compatible for Editor in 30.23 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.367 seconds
+Refreshing native plugins compatible for Editor in 10.29 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.850 seconds
+- Finished resetting the current domain, in  1.218 seconds
 Domain Reload Profiling:
-	ReloadAssembly (317ms)
-		BeginReloadAssembly (191ms)
+	ReloadAssembly (459ms)
+		BeginReloadAssembly (281ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		LoadAllAssembliesAndSetupDomain (822ms)
-			LoadAssemblies (184ms)
+			CreateAndSetChildDomain (65ms)
+		LoadAllAssembliesAndSetupDomain (1900ms)
+			LoadAssemblies (172ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (737ms)
-				TypeCache.Initialize (392ms)
-					TypeCache.ScanAssembly (384ms)
-				ResolveRequiredComponents (5ms)
+			SetupTypeCache (1825ms)
+				TypeCache.Initialize (861ms)
+					TypeCache.ScanAssembly (854ms)
+				ResolveRequiredComponents (16ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (555ms)
+			SetupLoadedEditorAssemblies (808ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (14ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (368ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (173ms)
+				ProcessInitializeOnLoadAttributes (488ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
+				AfterProcessingInitializeOnLoad (32ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2715 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (42.1 KB). Loaded Objects now: 3201.
-Memory consumption went from 444.3 MB to 444.3 MB.
-Total: 3.275800 ms (FindLiveObjects: 0.356600 ms CreateObjectMapping: 0.204400 ms MarkObjects: 2.665400 ms  DeleteObjects: 0.047400 ms)
+Unloading 2716 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (42.1 KB). Loaded Objects now: 3202.
+Memory consumption went from 444.7 MB to 444.6 MB.
+Total: 5.826800 ms (FindLiveObjects: 0.392900 ms CreateObjectMapping: 0.185600 ms MarkObjects: 5.130900 ms  DeleteObjects: 0.115000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
@@ -163,736 +162,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 20398.454682 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Enemy1 sprites/Enemy1Idle.png
-  artifactKey: Guid(3e40d2ae659f0eb498e4a902027437a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 109086.738748 seconds.
+  path: Assets/spritefont_and_other/document_and_picturelist/picturelist2.png
+  artifactKey: Guid(4044884d79163064999b8acd86c9047f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Enemy1 sprites/Enemy1Idle.png using Guid(3e40d2ae659f0eb498e4a902027437a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56b6b73f1f82aa435c9e623b1408503') in 0.296608 seconds 
+Start importing Assets/spritefont_and_other/document_and_picturelist/picturelist2.png using Guid(4044884d79163064999b8acd86c9047f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9f362e69a9903157b6eca0a4813292') in 0.264263 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000579 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Enemy1 sprites/EnemyOneSprite.png
-  artifactKey: Guid(b8121543799cd684bb9695a9dc32665c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000047 seconds.
+  path: Assets/spritefont_and_other/pics/fontsheet002.png
+  artifactKey: Guid(22b36550cc8a3a34a91106ec47648c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Enemy1 sprites/EnemyOneSprite.png using Guid(b8121543799cd684bb9695a9dc32665c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49977da44efe611c1e92a87033ea5491') in 0.302620 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Enemy1 sprites/Enemy1Attacking.png
-  artifactKey: Guid(63dc025e1845fe64aa0f7e11832ec836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Enemy1 sprites/Enemy1Attacking.png using Guid(63dc025e1845fe64aa0f7e11832ec836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d5f8875ab611addbda7d3b2cadee3b') in 0.257609 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.001301 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Enemy1 sprites
-  artifactKey: Guid(47003c271e4617146beb798f08dc197b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Enemy1 sprites using Guid(47003c271e4617146beb798f08dc197b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb262197141dce74efec247bda1c078') in 0.011131 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 12.405860 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Enemy2 sprites/Enemy2Attacking(LR).png
-  artifactKey: Guid(2b650db7733cdeb479fd6283424ecf8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Enemy2 sprites/Enemy2Attacking(LR).png using Guid(2b650db7733cdeb479fd6283424ecf8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab447af85b027bb6df931228e59e167') in 0.050402 seconds 
-Number of asset objects unloaded after import = 3
+Start importing Assets/spritefont_and_other/pics/fontsheet002.png using Guid(22b36550cc8a3a34a91106ec47648c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63aedc2a01d6acb70e0b924a924c810d') in 2.581471 seconds 
+Number of asset objects unloaded after import = 758
 ========================================================================
 Received Import Request.
   Time since last request: 0.000037 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Enemy2 sprites
-  artifactKey: Guid(f903ac48fc75d1b44a2cc7f7295c812d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/spritefont_and_other/pics/other.png
+  artifactKey: Guid(47d6d26076e81a34c863a03064a7fe77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Enemy2 sprites using Guid(f903ac48fc75d1b44a2cc7f7295c812d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4343c34706623892e848173ee851ab20') in 0.049920 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/spritefont_and_other/pics/other.png using Guid(47d6d26076e81a34c863a03064a7fe77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacca1c8d58db6f305cd3e4fefb0a5e6') in 1.613116 seconds 
+Number of asset objects unloaded after import = 544
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001079 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Enemy2 sprites/EnemyTwoSprite.png
-  artifactKey: Guid(ca28f2ecc45c80f40821cdd737cc6b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000052 seconds.
+  path: Assets/spritefont_and_other/document_and_picturelist/picturelist3.png
+  artifactKey: Guid(fe8f86f3f0230604b96259058b54d1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Enemy2 sprites/EnemyTwoSprite.png using Guid(ca28f2ecc45c80f40821cdd737cc6b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d08b03302ec7ee5fcd1ff63a7b646bd') in 0.092592 seconds 
+Start importing Assets/spritefont_and_other/document_and_picturelist/picturelist3.png using Guid(fe8f86f3f0230604b96259058b54d1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e654dfe83a3e499623e66c7287557ec0') in 0.035396 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001448 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Enemy2 sprites/Enemy2Projectile(LR).png
-  artifactKey: Guid(2cb516692407d374f971222a5eb7c268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000028 seconds.
+  path: Assets/spritefont_and_other/document_and_picturelist/picturelist.png
+  artifactKey: Guid(33860843027ab624eafd13e5c0619bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Enemy2 sprites/Enemy2Projectile(LR).png using Guid(2cb516692407d374f971222a5eb7c268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723a1d8ee25da89526b2904149e4ab41') in 0.097380 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.002342 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Enemy2 sprites/Enemy2Projectile(UD).png
-  artifactKey: Guid(0e98eb44712f6b0448b0007324f7473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Enemy2 sprites/Enemy2Projectile(UD).png using Guid(0e98eb44712f6b0448b0007324f7473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767744d75a7b774696aafd4d6c99f199') in 0.096651 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.003000 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Enemy2 sprites/Enemy2Idle.png
-  artifactKey: Guid(7f5944d76129e3e4b80926552ebecb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Enemy2 sprites/Enemy2Idle.png using Guid(7f5944d76129e3e4b80926552ebecb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5eed773747906a623510b9ba747f53') in 0.099735 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 47.035964 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Female character sprites/FemaleCharacterIdle.png
-  artifactKey: Guid(992502331e3b9834a82f00be6a0e6858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Female character sprites/FemaleCharacterIdle.png using Guid(992502331e3b9834a82f00be6a0e6858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a9a29be30cda270e90def9043778b4') in 0.035901 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Female character sprites/FemaleMovingRight.png
-  artifactKey: Guid(bcf1afc479465e845934fc9555e3b69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Female character sprites/FemaleMovingRight.png using Guid(bcf1afc479465e845934fc9555e3b69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ddf5e757f273891fabd0ca3efc7e92') in 0.075634 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.001238 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Female character sprites
-  artifactKey: Guid(c47fc42c3471cc240884b073f2feee23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Female character sprites using Guid(c47fc42c3471cc240884b073f2feee23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5003a828366b9ea56affbc83a1a9b468') in 0.047301 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Female character sprites/FemaleMovingLeft.png
-  artifactKey: Guid(092105ac91607f443aee15fc44215e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Female character sprites/FemaleMovingLeft.png using Guid(092105ac91607f443aee15fc44215e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6961964fa34f9b139d26b22a135e89') in 0.095224 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Female character sprites/MenuWomanSprite.png
-  artifactKey: Guid(89c5a568d207f164eb8a60360a767038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Female character sprites/MenuWomanSprite.png using Guid(89c5a568d207f164eb8a60360a767038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eaf434e576d5a8c9c9edd6ace26e4c9') in 0.112112 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Female character sprites/FemaleGhostAnimation.png
-  artifactKey: Guid(2ab05b9c5b5e4a64896313f0a4a05cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Female character sprites/FemaleGhostAnimation.png using Guid(2ab05b9c5b5e4a64896313f0a4a05cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203b6bef475d01e90329a9f1d3a5a43b') in 0.090208 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Female character sprites/FemaleCharacterMovingUp.png
-  artifactKey: Guid(97c13cbaf3cd4fc4d816ef84cafa9cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Female character sprites/FemaleCharacterMovingUp.png using Guid(97c13cbaf3cd4fc4d816ef84cafa9cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4c41f6b581d5bfaf006aeebe8be335') in 0.118903 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Female character sprites/FemaleCharacterMovingDown.png
-  artifactKey: Guid(ce18d842940723644b333f4ac777fdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Female character sprites/FemaleCharacterMovingDown.png using Guid(ce18d842940723644b333f4ac777fdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3bd63ea0f167b2ca57af2391fbb83d') in 0.074805 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 39.752093 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/+1Heartsprite.png
-  artifactKey: Guid(6702e5479cfe5844f8a94ac023ae6773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/+1Heartsprite.png using Guid(6702e5479cfe5844f8a94ac023ae6773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe52435bc48887e70710871b905f45b4') in 0.049966 seconds 
+Start importing Assets/spritefont_and_other/document_and_picturelist/picturelist.png using Guid(33860843027ab624eafd13e5c0619bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0205955e9f342e209f2767e4c1b914') in 0.046854 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/end of game orb.png
-  artifactKey: Guid(c7cd7183d16d69c458d429ef824242da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/spritefont_and_other/pics/fontsheet001.png
+  artifactKey: Guid(388e8eb6de557964999d88f8d42114db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/end of game orb.png using Guid(c7cd7183d16d69c458d429ef824242da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9506efbee1e3a2cac8a43cf38626e3') in 0.074949 seconds 
-Number of asset objects unloaded after import = 3
+Start importing Assets/spritefont_and_other/pics/fontsheet001.png using Guid(388e8eb6de557964999d88f8d42114db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f026458efa995946b05f5bdf4211c76a') in 3.574205 seconds 
+Number of asset objects unloaded after import = 1082
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000660 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/EButtonIndicator.png
-  artifactKey: Guid(4ceda37c7d158d74a8e272300f0fad15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 141.971963 seconds.
+  path: Assets/spritefont_and_other/document_and_picturelist/readme.txt
+  artifactKey: Guid(30e82d3b92f73224b85ffbab94e6da91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/EButtonIndicator.png using Guid(4ceda37c7d158d74a8e272300f0fad15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eae92cc9f07b79c007c5f35fe50c5eb') in 0.080390 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/NewArrow.png
-  artifactKey: Guid(5d7e2f7d0de8a944ea5288ec5f23d089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/NewArrow.png using Guid(5d7e2f7d0de8a944ea5288ec5f23d089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69665c21fb33383904962ac5f8357b80') in 0.094901 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/ArrowImpact.png
-  artifactKey: Guid(3f1437cf63231f4478dce3dec3436981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/ArrowImpact.png using Guid(3f1437cf63231f4478dce3dec3436981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063bb88e6be6f5fd67c59b8aa89cca66') in 0.063296 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/key sprites.png
-  artifactKey: Guid(0a2999174a5fb5c409dfc48cb683a9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/key sprites.png using Guid(0a2999174a5fb5c409dfc48cb683a9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621a4c16f75b3432f1fd11db0a326bc3') in 0.095967 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/statue spritesheet.png
-  artifactKey: Guid(f058f6f0bd6e1e946bb67dd466878a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/statue spritesheet.png using Guid(f058f6f0bd6e1e946bb67dd466878a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edfb152cc61be9d61259c88ed2e5397') in 0.056086 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/heart particle.png
-  artifactKey: Guid(c37a559adc4117e4ab3b45c204cb5487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/heart particle.png using Guid(c37a559adc4117e4ab3b45c204cb5487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf20e7aa232854c6120ea247971dc12') in 0.087981 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.021238 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/Bone sprites.png
-  artifactKey: Guid(8d2ac9d8d2fd1ed4193fb16e7dfb293f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/Bone sprites.png using Guid(8d2ac9d8d2fd1ed4193fb16e7dfb293f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24682241aa1eacabceb0c151ff45b92c') in 0.058967 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/BowAndSteelArrowIcon.png
-  artifactKey: Guid(be4e9332f473e1e49b3d6308ca92ccfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/BowAndSteelArrowIcon.png using Guid(be4e9332f473e1e49b3d6308ca92ccfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbfde9a91d706cf6f6ee2dd0fad9340a') in 0.089246 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/+200Sprite.png
-  artifactKey: Guid(1a2a36557d7ecac47bd3329cbffe06e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/+200Sprite.png using Guid(1a2a36557d7ecac47bd3329cbffe06e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a3d970a00e8216179b5ec6b71bdf63') in 0.072681 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/ChestSpriteSheet.png
-  artifactKey: Guid(4009148eff4dfc94fbd5c3fd54c0f5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/ChestSpriteSheet.png using Guid(4009148eff4dfc94fbd5c3fd54c0f5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393732b7d0b563808a63b73dfc72f467') in 0.088913 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/CoinSpriteSheet.png
-  artifactKey: Guid(1378c5c4d269aae439e25793f0fe1092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/CoinSpriteSheet.png using Guid(1378c5c4d269aae439e25793f0fe1092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b7a0160f39b2056096731bcef21e06') in 0.095796 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/BowAndArrowIcon.png
-  artifactKey: Guid(8c461ff8c5a89f6408b04b8fafdfcbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/BowAndArrowIcon.png using Guid(8c461ff8c5a89f6408b04b8fafdfcbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57e421813d6badc7b222a10a1606fd8') in 0.086067 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000623 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/NewIronArrow.png
-  artifactKey: Guid(ce72199951a4bcd46b97ca8744065d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/NewIronArrow.png using Guid(ce72199951a4bcd46b97ca8744065d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9973d5acf0e18fb74e746a83d892a01d') in 0.078266 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000504 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/+50Sprite.png
-  artifactKey: Guid(e5d2b65c317823b4daa5dd43dde984a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/+50Sprite.png using Guid(e5d2b65c317823b4daa5dd43dde984a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9987a35dc634b0f90689555b0fedec7') in 0.101169 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000551 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/top down characters and weapons.png
-  artifactKey: Guid(dd34f16b0e33c7e4894dc69b32aed5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/top down characters and weapons.png using Guid(dd34f16b0e33c7e4894dc69b32aed5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdebb4b3c42f82f9a21bff59c090985') in 0.088611 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/HealthPotionIcon.png
-  artifactKey: Guid(068ba0e2b87b141499d159c73b3260cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/HealthPotionIcon.png using Guid(068ba0e2b87b141499d159c73b3260cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0da50f1e2f18ad5f7b9892fd3e7b8f0') in 0.077388 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/coin particle.png
-  artifactKey: Guid(02b0ef8bb0707f64a8eb07f8dcdcae19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/coin particle.png using Guid(02b0ef8bb0707f64a8eb07f8dcdcae19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8d76f12dcd30f628ffc45d6ca2baf5') in 0.075379 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/+500particle.png
-  artifactKey: Guid(5e8645b0c06758d48a1f43f84c5a0d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/+500particle.png using Guid(5e8645b0c06758d48a1f43f84c5a0d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2849bfcd2309217f030d1517dedc26e') in 0.093646 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites
-  artifactKey: Guid(14e872a26074eb94db446ab949a8ef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites using Guid(14e872a26074eb94db446ab949a8ef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd7d28f466d05aec4477e82d85c3d42') in 0.020678 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/DeadEnemyIcon.png
-  artifactKey: Guid(c0dd4c7b663e4fe47bcbe11cc49e4b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/In game sprites/DeadEnemyIcon.png using Guid(c0dd4c7b663e4fe47bcbe11cc49e4b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f711ca555b58b5e20229510398a717') in 0.083283 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 98.453975 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Read Me!.txt
-  artifactKey: Guid(098c54288ba20b84e80226a1e9f7b837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Read Me!.txt using Guid(098c54288ba20b84e80226a1e9f7b837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca042b18ff9fe0b9f275e807f3d53a6') in 0.073915 seconds 
+Start importing Assets/spritefont_and_other/document_and_picturelist/readme.txt using Guid(30e82d3b92f73224b85ffbab94e6da91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea36bccf1765e08192862c1ff711f52') in 0.020220 seconds 
 Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 12.312036 seconds.
-  path: Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Sprite Instructions.pdf
-  artifactKey: Guid(9964971d8875d4942874940a39f7a94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2D Dungeon Pixel Sprites (2D-Half2D)/Sprite Instructions.pdf using Guid(9964971d8875d4942874940a39f7a94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3f40b6c3f7d59fcca60546b823c38c') in 0.054088 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 268.582557 seconds.
-  path: Assets/Scenes/characters.unity
-  artifactKey: Guid(f6a2015537ee61d4496f1bb9a3c8bb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/characters.unity using Guid(f6a2015537ee61d4496f1bb9a3c8bb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33674a7575622e32b7127ed4f308edbd') in 0.018077 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 164.521036 seconds.
-  path: Assets/Scenes/Main Screen.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/Main Screen.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6754faa67ade120a2cc65211c36361') in 0.021279 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 10.685053 seconds.
-  path: Assets/Scenes/Quest.unity
-  artifactKey: Guid(9cf42b727a8a042429b21776a6b968eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/Quest.unity using Guid(9cf42b727a8a042429b21776a6b968eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2c69159823018a40f1a34ce4e2058e') in 0.019479 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 79.757514 seconds.
-  path: Assets/Scenes/characters.unity
-  artifactKey: Guid(f6a2015537ee61d4496f1bb9a3c8bb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/characters.unity using Guid(f6a2015537ee61d4496f1bb9a3c8bb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459ea4df791799b7fc1f87343b039e7d') in 0.014261 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 10.637927 seconds.
-  path: Assets/Scenes/characters.unity
-  artifactKey: Guid(f6a2015537ee61d4496f1bb9a3c8bb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/characters.unity using Guid(f6a2015537ee61d4496f1bb9a3c8bb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12dc28da297a436d2b6dbd927db615ac') in 0.005981 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 14.412955 seconds.
-  path: Assets/Scripts/MainScreenUIManager.cs
-  artifactKey: Guid(10714cf150d91c84e92e4b342c7df752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scripts/MainScreenUIManager.cs using Guid(10714cf150d91c84e92e4b342c7df752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d76a695d0195264a6f68816e82abe7') in 0.033336 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.321420 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(2c8c65930a41c0445be7a4b18297f4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scripts using Guid(2c8c65930a41c0445be7a4b18297f4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25a6c8396ee5fbbae70353960ba96b9') in 0.032834 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 13.533542 seconds.
-  path: Assets/Scripts/CharacterScreenUIManager.cs
-  artifactKey: Guid(caf393a459fe40a4898f8ec1e2245fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scripts/CharacterScreenUIManager.cs using Guid(caf393a459fe40a4898f8ec1e2245fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3984b1287a26c921b9a0e62f13899f6a') in 0.014179 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001890 seconds.
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.280 seconds
-Refreshing native plugins compatible for Editor in 21.18 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.874 seconds
-Domain Reload Profiling:
-	ReloadAssembly (600ms)
-		BeginReloadAssembly (445ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (35ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (150ms)
-		LoadAllAssembliesAndSetupDomain (677ms)
-			LoadAssemblies (240ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (627ms)
-				TypeCache.Initialize (316ms)
-					TypeCache.ScanAssembly (311ms)
-				ResolveRequiredComponents (29ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (458ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (289ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2692 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (36.3 KB). Loaded Objects now: 3234.
-Memory consumption went from 444.3 MB to 444.3 MB.
-Total: 4.098800 ms (FindLiveObjects: 0.288400 ms CreateObjectMapping: 0.142900 ms MarkObjects: 3.605300 ms  DeleteObjects: 0.061100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Import Request.
-  Time since last request: 15.103017 seconds.
-  path: Assets/Scripts/CharacterScreenUIManager.cs
-  artifactKey: Guid(caf393a459fe40a4898f8ec1e2245fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scripts/CharacterScreenUIManager.cs using Guid(caf393a459fe40a4898f8ec1e2245fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edbc1211f2091b7dc7d75acc4da1791a') in 0.009724 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001266 seconds.
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.707 seconds
-Refreshing native plugins compatible for Editor in 3.61 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.015 seconds
-Domain Reload Profiling:
-	ReloadAssembly (225ms)
-		BeginReloadAssembly (142ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		LoadAllAssembliesAndSetupDomain (480ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (457ms)
-				TypeCache.Initialize (249ms)
-					TypeCache.ScanAssembly (244ms)
-				ResolveRequiredComponents (3ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (585ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (60ms)
-				SetLoadedEditorAssemblies (27ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (241ms)
-				ProcessInitializeOnLoadAttributes (220ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2692 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (36.4 KB). Loaded Objects now: 3237.
-Memory consumption went from 444.3 MB to 444.3 MB.
-Total: 2.708000 ms (FindLiveObjects: 0.225000 ms CreateObjectMapping: 0.109500 ms MarkObjects: 2.330900 ms  DeleteObjects: 0.039700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001420 seconds.
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.708 seconds
-Refreshing native plugins compatible for Editor in 3.82 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.865 seconds
-Domain Reload Profiling:
-	ReloadAssembly (228ms)
-		BeginReloadAssembly (143ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		LoadAllAssembliesAndSetupDomain (477ms)
-			LoadAssemblies (89ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (441ms)
-				TypeCache.Initialize (246ms)
-					TypeCache.ScanAssembly (238ms)
-				ResolveRequiredComponents (3ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (468ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (10ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (303ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2693 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (43.5 KB). Loaded Objects now: 3240.
-Memory consumption went from 444.6 MB to 444.5 MB.
-Total: 3.154600 ms (FindLiveObjects: 0.277900 ms CreateObjectMapping: 0.086800 ms MarkObjects: 2.739800 ms  DeleteObjects: 0.048600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Import Request.
-  Time since last request: 188.622141 seconds.
-  path: Assets/Scenes/characters.unity
-  artifactKey: Guid(f6a2015537ee61d4496f1bb9a3c8bb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/characters.unity using Guid(f6a2015537ee61d4496f1bb9a3c8bb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0562cc6c442f79dcbababf072d4e7337') in 0.016209 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 35.591387 seconds.
-  path: Assets/Scripts/MainScreenUIManager.cs
-  artifactKey: Guid(10714cf150d91c84e92e4b342c7df752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scripts/MainScreenUIManager.cs using Guid(10714cf150d91c84e92e4b342c7df752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db30d8279579ee905c99e348c2eaa2c') in 0.003431 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 6.312280 seconds.
-  path: Assets/Scenes/Main Screen.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/Main Screen.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603c6c624307ca825c03a19fcf09abe0') in 0.008762 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001093 seconds.
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.620 seconds
-Refreshing native plugins compatible for Editor in 3.45 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.705 seconds
-Domain Reload Profiling:
-	ReloadAssembly (213ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		LoadAllAssembliesAndSetupDomain (405ms)
-			LoadAssemblies (68ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (377ms)
-				TypeCache.Initialize (224ms)
-					TypeCache.ScanAssembly (220ms)
-				ResolveRequiredComponents (4ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (1688ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (63ms)
-				SetLoadedEditorAssemblies (22ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (256ms)
-				ProcessInitializeOnLoadAttributes (1157ms)
-				ProcessInitializeOnLoadMethodAttributes (166ms)
-				AfterProcessingInitializeOnLoad (22ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (34ms)
-Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2692 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (36.2 KB). Loaded Objects now: 3243.
-Memory consumption went from 444.3 MB to 444.3 MB.
-Total: 7.540900 ms (FindLiveObjects: 0.316200 ms CreateObjectMapping: 0.231400 ms MarkObjects: 6.933000 ms  DeleteObjects: 0.057700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Import Request.
-  Time since last request: 21.752559 seconds.
-  path: Assets/Scenes/characters.unity
-  artifactKey: Guid(f6a2015537ee61d4496f1bb9a3c8bb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/characters.unity using Guid(f6a2015537ee61d4496f1bb9a3c8bb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a493219c28db7c45bbbb2f8c8fedf7') in 0.011388 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002112 seconds.
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.633 seconds
-Refreshing native plugins compatible for Editor in 4.80 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.827 seconds
-Domain Reload Profiling:
-	ReloadAssembly (199ms)
-		BeginReloadAssembly (121ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		LoadAllAssembliesAndSetupDomain (432ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (403ms)
-				TypeCache.Initialize (238ms)
-					TypeCache.ScanAssembly (232ms)
-				ResolveRequiredComponents (2ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (1960ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (71ms)
-				SetLoadedEditorAssemblies (34ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (307ms)
-				ProcessInitializeOnLoadAttributes (1376ms)
-				ProcessInitializeOnLoadMethodAttributes (166ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2692 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (36.2 KB). Loaded Objects now: 3246.
-Memory consumption went from 444.3 MB to 444.3 MB.
-Total: 3.771000 ms (FindLiveObjects: 0.236700 ms CreateObjectMapping: 0.141400 ms MarkObjects: 3.349300 ms  DeleteObjects: 0.042300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
