@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Quest.unity
     guid: 9cf42b727a8a042429b21776a6b968eb
+  - enabled: 1
+    path: Assets/Scenes/characters.unity
+    guid: f6a2015537ee61d4496f1bb9a3c8bb88
   m_configObjects: {}

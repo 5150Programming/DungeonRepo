@@ -21,4 +21,8 @@ public class MainScreenUIManager : MonoBehaviour
     {
         SceneManager.GotoScene(1);
     }
+    public void GotoCharacterScene()
+    {
+        SceneManager.GotoScene(2);
+    }
 }
