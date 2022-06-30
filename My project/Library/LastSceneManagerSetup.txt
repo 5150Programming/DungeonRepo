@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Main Screen.unity
+- path: Assets/2D Dungeon PixelArt Tileset/2D Dungeon PixelArt Tileset Palette/Demo/DemoScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
